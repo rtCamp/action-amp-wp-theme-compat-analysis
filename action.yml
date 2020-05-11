@@ -1,0 +1,9 @@
+name: 'AMP WP Theme Compatability Analysis'
+description: 'This will run AMP WP Theme Compatability Analysis PRs'
+author: 'rtCamp'
+runs:
+  using: 'docker'
+  image: 'docker://rtcamp/action-amp-wp-theme-compat-analysis:v1.0.0'
+branding:
+  icon: 'search'
+  color: 'white'
