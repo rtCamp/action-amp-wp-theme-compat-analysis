@@ -1,5 +1,5 @@
 # Latest Ubuntu 18.04 image as of Fri May 8 03:57:47 UTC 2020
-FROM ubuntu@sha256:3235326357dfb65f1781dbc4df3b834546d8bf914e82cce58e6e6b676e23ce8f
+FROM ubuntu@sha256:c35e29c9450151419d9448b0fd75374fec4fff364a27f176fb458d472dfc9e54
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update && \
